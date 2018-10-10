@@ -8,7 +8,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Image is Build Suucessfully'
+        sh '''docker build -f DockerFile . -t jenkintest:latest
+docker run -it jenkintest'''
       }
     }
   }
