@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename '/opt/chams/DockerFile'
+      filename 'DockerFile'
     }
 
   }
