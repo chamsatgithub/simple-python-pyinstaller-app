@@ -4,7 +4,7 @@ pipeline {
     stage('ImageBuild') {
       steps {
         echo 'Building an Image'
-        sh '''docker build -f ../DockerFile . -t jenkintest:latest
+        sh '''docker build -f ../Dockerfile . -t jenkintest:latest
 docker run -it jenkintest'''
       }
     }
