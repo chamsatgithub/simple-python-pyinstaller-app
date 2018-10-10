@@ -1,14 +1,14 @@
 pipeline {
   agent {
     dockerfile {
-      filename '/opt/chams/simple-python-pyinstaller-app/MyDockerFile4Jenkins'
+      filename '/opt/chams/DockerFile'
     }
 
   }
   stages {
-    stage('Build') {
+    stage('ImageBuild') {
       steps {
-        echo 'Image is Build Suucessfully'
+        echo 'Building an Image'
       }
     }
   }
