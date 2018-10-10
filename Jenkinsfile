@@ -9,4 +9,7 @@ docker run -it jenkintest'''
       }
     }
   }
+  environment {
+    WORKSPACE = '/opt/chams'
+  }
 }
