@@ -1,15 +1,14 @@
 pipeline {
-  agent any
+  agent {
+    dockerfile {
+      filename 'MyDockerFile4Jenkins'
+    }
+
+  }
   stages {
-    stage('PyInstaller') {
+    stage('Build') {
       steps {
-        sh '''#!/bin/bash
-
-
-
-
-               
-'''
+        echo 'Image is Build Suucessfully'
       }
     }
   }
