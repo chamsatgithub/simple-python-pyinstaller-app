@@ -9,7 +9,4 @@ docker run -it jenkintest'''
       }
     }
   }
-  environment {
-    WORKSPACE = ' /var/jenkins_home/workspace/'
-  }
 }
