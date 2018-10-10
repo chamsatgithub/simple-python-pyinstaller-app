@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename 'MyDockerFileJenkins'
+      filename '/opt/chams/simple-python-pyinstaller-app/Jenkinsfile'
     }
 
   }
