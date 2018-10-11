@@ -11,6 +11,6 @@ file dockerbuild.sh sh +x dockerbuild.sh'''
     }
   }
   environment {
-    JENKINS_HOME = '/opt/chams/simple-python-pyinstaller-app'
+    JENKINS_HOME = '\'/opt/chams/simple-python-pyinstaller-app\''
   }
 }
