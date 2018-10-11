@@ -8,4 +8,7 @@ pipeline {
       }
     }
   }
+  environment {
+    JENKINS_HOME = '/opt/chams/simple-python-pyinstaller-app'
+  }
 }
